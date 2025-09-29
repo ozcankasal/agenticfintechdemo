@@ -132,9 +132,9 @@ You can override via environment variables.
 ## 🧪 Usage examples
 
 ```bash
-python main.py run --topic "SME lending via embedded finance"
-python main.py run --topic "Cross-border remittance corridors"
-python main.py run --topic "BNPL for B2B marketplaces" --max-sources 8
+python main.py run "SME lending via embedded finance"
+python main.py run "Cross-border remittance corridors"
+python main.py run "BNPL for B2B marketplaces" --max-sources 8
 ```
 
 Common flags (if implemented in `main.py`):
