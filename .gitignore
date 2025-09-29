@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+.outputs/
+outputs/
+.env
+.env.*
+report.html
+report.pdf
+last_report.md
