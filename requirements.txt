@@ -1,0 +1,6 @@
+weasyprint
+rich
+typer
+crewai
+pydantic
+crewai-tools
