@@ -63,7 +63,7 @@ export OPENAI_API_KEY="sk-..."             # Windows PowerShell: setx OPENAI_API
 export SERPER_API_KEY="serper_xxx"         # Windows PowerShell: setx SERPER_API_KEY "serper_xxx"
 
 # 5) Run — use the explicit 'run' subcommand
-python main.py run --topic "Open Banking partnerships"
+python main.py run "Open Banking partnerships"
 ```
 
 **Output:** a Markdown report is generated (commonly `outputs/<timestamp>_partnership_report.md`).  
@@ -208,7 +208,7 @@ ruff check .
 black .
 
 # Smoke test
-python main.py run --topic "Digital identity verification"
+python main.py run "Digital identity verification"
 ```
 
 ---
